@@ -1,25 +1,24 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `¿Necesitas ayuda?`,
+        answer: 'Puedes unirte a nuestro servidor oficial de Discord dedicado a soporte. Allí podrás crear un ticket para comunicarte con un miembro de nuestro equipo.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `¿Experimentas caídas inesperadas o problemas de respuesta?`,
+        answer: 'Si estás experimentando falta de respuesta por parte de nuestros servicios en interacciones o comandos puede deberse a un mantenimiento o problema de red. Asegúrate de revisar nuestra página de estado para estar actualizado.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: '¿Qué hago si encuentro un bug/error en nuestros servicios?',
+        answer: `Si encuentras un fallo en cualquiera de nuestros servicios, páginas webs o cualquier cosa relacionada con la empresa estás en la obligación de reportarlo ante nuestro equipo. Serás recompensado dependiendo de la gravedad del fallo que encontraste.`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: '¿Quieres actualizar tu plan para acceder a las ventajas?',
+        answer: 'Puedes contratar un plan desde https://shop.warkcorp.com y elegir el que mejor se adapte a ti o a tu servidor de Discord. Si tienes preguntas no dudes en contactarnos.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: '¿Qué sucede si quiero efectuar una devolución?',
+        answer: 'Puedes devolver los planes solo durante las 24 horas después de su adquisición, después de ese tiempo no aceptaremos devoluciones por políticas internas.'
     }
 ];

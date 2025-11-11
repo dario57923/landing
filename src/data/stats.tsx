@@ -5,18 +5,18 @@ import { IStats } from "@/types";
 
 export const stats: IStats[] = [
     {
-        title: "600+",
+        title: "150+",
         icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Clientes registrados en XeroHost."
+        description: "Servidores registrados en Wark en total."
     },
     {
-        title: "4.8",
+        title: "4.7",
         icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "En valoraciones de nuestros clientes vía Trustpilot."
+        description: "En valoraciones de nuestros clientes."
     },
     {
-        title: "1+ ",
+        title: "3+ ",
         icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Empresas gestionadas por XeroGroup."
+        description: "Empresas gestionadas por Wark Corp."
     }
 ];

@@ -18,10 +18,10 @@ const AppStoreButton = ({ dark }: { dark?: boolean }) => {
                 </div>
                 <div>
                     <div className="text-xs">
-                        Download on the
+                        Añade ya a
                     </div>
                     <div className="-mt-1 font-sans text-xl font-semibold">
-                        App Store
+                        Wark
                     </div>
                 </div>
             </button>

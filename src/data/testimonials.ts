@@ -1,23 +1,22 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
+        name: 'Rateing',
+        role: 'Ex-Manager de MotionMC Network',
+        message: `El mejor bot de seguridad y moderación que he probado, muy buen sistema de soporte. Lo recomiendo a todos los servidores.`,
         avatar: '/images/testimonial-1.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
+        name: 'crazyCat',
+        role: 'Dueño de Heat Community',
+        message: `A nosotros nos ha gustado mucho para moderar nuestra pequeña comunidad, hace ya un tiempo que lo usamos como bot principal.`,
         avatar: '/images/testimonial-2.webp',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+        name: 'Magros',
+        role: 'Dueño de NeverCraft Network',
+        message: `Apenas comenzamos nuestra network y nos ha servido mucho por el tema de configuración de Discord y Minecraft. Muy bueno.`,
         avatar: '/images/testimonial-3.webp',
     },
 ];
